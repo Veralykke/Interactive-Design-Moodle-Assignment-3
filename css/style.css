@@ -18,16 +18,18 @@ header{
    border-bottom: 1px solid gray;
 }
 
-.main-flex-product-detail{
+.main-flex{
     width: 50%;
 }
 
 h1{
     size: 20em;
+    padding-left: 35px;
+    margin-top: 100px;
 }
 
-.test{
-
+.price-productpage{
+    margin-left: 45px;
 }
 
 .heart{
@@ -62,7 +64,7 @@ ul li{
 
 .product-image{
 width: 85%;
-background-color: hotpink;
+/*background-color: hotpink;*/
 height: 512px;
 }
 
@@ -84,11 +86,43 @@ height: 512px;
 }
 
 .product-image img{
-    height: 512px;
+    height: 400px;
     width: 400px;
     padding-left: 46px;
    
 }
+
+.footer{
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #555858;
+    color: white;
+    text-align: center;
+}
+
+.article-productpage{
+padding-left: 35px;
+}
+
+.cart-button{
+    height: 45px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.cartbutton-product{
+    background-color: #24CCCC;
+    border: none;
+}
+
+.wishlist{
+    border: 2px solid #24CCCC;
+}
+
 
 /*shop-landing-page*/
 
